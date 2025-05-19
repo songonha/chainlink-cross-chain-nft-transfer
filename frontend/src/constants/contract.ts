@@ -1,0 +1,25 @@
+// Import the ABI JSON files
+import XNftJson from '../abi/XNftJson.json';
+
+export const extraArgsBytes = '0x97a657c90000000000000000000000000000000000000000000000000000000000030d40' as const;
+
+// XNFT addresses
+export const ETHEREUM_SEPOLIA_XNFT_ADDRESS = '0xd99b829b0d545Bb446B0ca6F364A34b09A51DBC4' as const;
+export const ARBITRUM_SEPOLIA_XNFT_ADDRESS = '0xc86915F87Bec51B0Cd9260641a53f47063060715' as const;
+
+// Link Token addresses
+export const ETHEREUM_SEPOLIA_LINK_TOKEN_ADDRESS = '0x779877A7B0D9E8603169DdbD7836e478b4624789' as const;
+export const ARBITRUM_SEPOLIA_LINK__TOKEN_ADDRESS = '0xb1D4538B4571d411F07960EF2838Ce337FE1E80E' as const;
+
+// Router addresses 
+export const ETHEREUM_SEPOLIA_SEPOLIA_ROUTER_ADDRESS = '0x0BF3dE8c5D3e8A2B34D2BEeB17ABfCeBaf363A59' as const;
+export const ARBITRUM_SEPOLIA_ROUTER_ADDRESS = '0x2a9C5afB0d0e4BAb2BCdaE109EC4b0c4Be15a165' as const;
+
+// Chain selectors 
+export const CHAIN_SELECTORS = {
+    ETHEREUM_SEPOLIA: '16015286601757825753', // Ethereum Sepolia 
+    ARBITRUM_SEPOLIA: '3478487238524512106', // Arbitrum Sepolia
+} as const;
+
+// Export the ABIs
+export const XNFT_ABI = XNftJson;
